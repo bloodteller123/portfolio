@@ -15,6 +15,7 @@ const Home = () =>{
             <div className="intro">
                 <h1 className="fullname"><b>Zihan Chen</b></h1>
                 <h3>Software Developer</h3>
+                <li className="resume"><a href="#Resume">Resume</a></li>
             </div>
         </section>
     )

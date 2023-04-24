@@ -12,7 +12,7 @@ import {faGithub} from '@fortawesome/free-brands-svg-icons'
 const Project = () =>{
 
     return (
-       <section className='section'>
+       <section className='section' id="projects">
             <div className='container'>
                 <h2 className='project'>Project</h2>
                 <div className='lists'>
