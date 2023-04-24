@@ -1,0 +1,72 @@
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 88px 0px;
+    height: 80%;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    position: relative;
+    z-index: 4;
+}
+
+.container{
+    max-width: 1000px;
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.project{
+    position: relative;
+    font-size: 50px;
+}
+
+.project::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 7px;
+    background: #fb8702;
+    transform: skew(-18deg) translateX(-50%);
+    left: 50%;
+    bottom: -5px;
+    z-index: -1;
+}
+
+.lists{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.listItem{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.listItemDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.links{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap:25px;
+}
+
+.projectimg{
+    max-height: 300px;
+    max-width: 580px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.link{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
