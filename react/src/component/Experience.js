@@ -6,6 +6,31 @@ import '../css/Experience.scss';
 // import 'semantic-ui-css/semantic.min.css'
 
 const Experience = () =>{
+
+    let ford = {
+        company_name: 'Ford Motor Company',
+        role: 'Software Developer Intern',
+        skills: ['C++', "Google Testing Framework"],
+        tasks: ["Wrote C++ tests with Google testing framework to increase test coverage to 80%", "updated legacy APIs"],
+        date: ["May 2020", "Aug 2020"],
+        imagename: "ford.jpeg"
+    }
+    let ibm = {
+        company_name: 'IBM Canada',
+        role: 'Software Developer Intern',
+        skills: ['Java', "Python"],
+        tasks: ["Implmented a automated Java pipeline to perform tasks", "Several defect fixings"],
+        date: ["Sept 2019", "Dec 2019"],
+        imagename: "ibm.png"
+    }
+    let mitel = {
+        company_name: 'Mitel Networks',
+        role: 'Software Developer Intern',
+        skills: ['Java', "JavaFX", "typescript"],
+        tasks: ["Assisted in chat microservice in Java", "Built a JavaFX application"],
+        date: ["Jan 2019", "Apr 2019"],
+        imagename: "mitel.png"
+    }
     return (
         <section className="section" id="exp">
             <h2 className='experience'>Experiences</h2>
@@ -21,10 +46,10 @@ const Experience = () =>{
                     <div class="timeline-circle"></div>
                 </div>
                     <div class="timeline-component timeline-content">
-                        <Card/>
+                        <Card {...ford}/>
                     </div>
                     <div class="timeline-component timeline-content">
-                        <Card/>
+                        <Card {...ibm}/>
                     </div>
                     <div class="timeline-middle">
                         <div class="timeline-circle"></div>
@@ -39,7 +64,7 @@ const Experience = () =>{
                     <div class="timeline-circle"></div>
                 </div>
                 <div class=" timeline-component timeline-content">
-                    <Card/>
+                    <Card {...mitel}/>
             </div>
 
         </div>
