@@ -31,39 +31,40 @@ const Experience = () =>{
         date: ["Jan 2019", "Apr 2019"],
         imagename: "mitel.png"
     }
+    // https://freefrontend.com/css-timelines/
     return (
         <section className="section" id="exp">
             <h2 className='experience'>Experiences</h2>
             <div className="cards ">
                 {/* <Card/> */}
             </div>
-                <div class="timeline">
+                <div className="timeline">
 
-                    <div class="timeline-empty">
+                    <div className="timeline-empty">
                     </div>
 
-                <div class="timeline-middle">
-                    <div class="timeline-circle"></div>
+                <div className="timeline-middle">
+                    <div className="timeline-circle"></div>
                 </div>
-                    <div class="timeline-component timeline-content">
+                    <div className="timeline-component timeline-content">
                         <Card {...ford}/>
                     </div>
-                    <div class="timeline-component timeline-content">
+                    <div className="timeline-component timeline-content">
                         <Card {...ibm}/>
                     </div>
-                    <div class="timeline-middle">
-                        <div class="timeline-circle"></div>
+                    <div className="timeline-middle">
+                        <div className="timeline-circle"></div>
                     </div>
-                    <div class="timeline-empty">
-                    </div>
-
-                    <div class="timeline-empty">
+                    <div className="timeline-empty">
                     </div>
 
-                <div class="timeline-middle">
-                    <div class="timeline-circle"></div>
+                    <div className="timeline-empty">
+                    </div>
+
+                <div className="timeline-middle">
+                    <div className="timeline-circle"></div>
                 </div>
-                <div class=" timeline-component timeline-content">
+                <div className=" timeline-component timeline-content">
                     <Card {...mitel}/>
             </div>
 

@@ -13,9 +13,11 @@ const Home = () =>{
             <div id="stars3"></div>
             <div id= "title">asdasdasd</div> */}
             <div className="intro">
-                <h1 className="fullname"><b>Zihan Chen</b></h1>
+            <div className="myname">
+                <h1 className="fullname">Hi! I'm <b>Zihan Chen</b></h1>
+                </div>
                 <h3>Software Developer</h3>
-                <li className="resume"><a href="#Resume">Resume</a></li>
+                <li className="resume"><a href="/ZihanChen_Resume.pdf" target="_blank">Resume</a></li>
             </div>
         </section>
     )

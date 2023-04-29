@@ -93,7 +93,6 @@ const Contact = () =>{
                     </div>
                     <input type='submit' value="Submit" className="submit"/>
                 </form>
-                
             </div>
         </div>
     </section>

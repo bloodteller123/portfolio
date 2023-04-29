@@ -17,9 +17,9 @@ const Card = ({company_name, role, tasks, date, imagename}) =>{
                 </div>
                 <div className="card_side card_side--back">
                     <div className="card_description tasks">
-                        <ui>
+                        <ul>
                             {tasks.map((t, ind) => <li className='taskItem' key={ind}>{t}</li>)}
-                        </ui>
+                        </ul>
                     </div>
                 </div>
             </div>
