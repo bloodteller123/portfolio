@@ -47,12 +47,12 @@ const Project = () =>{
                             <div>
                                 <ul className='links'>
                                     <li className='link'>
-                                        <a href="https://github.com/bloodteller123/Ordering-System">
+                                        <a href="javascript:;">
                                             <FontAwesomeIcon icon={faLink} size='2xl'/> 
                                         </a>                                   
                                     </li>
                                     <li className='link'>  
-                                        <a href="https://github.com/bloodteller123/Lens">
+                                        <a href="https://github.com/bloodteller123/Ordering-System">
                                             <FontAwesomeIcon icon={faGithub} size="2xl" /> 
                                         </a>
                                     </li>
@@ -65,7 +65,7 @@ const Project = () =>{
                         <div className='listItemDesc'>
                             <h2>Twitter Viewer</h2>
                             <p>The web app provides similar experience as the 'Following' section in latest Twitter. It allows users to login via their Twitter
-credentials, search for and follow other users, track their newest tweets, and like the tweets</p>
+credentials, search for and follow other users, track their newest tweets, and like the tweets (No longer maintained due to new Twitter Dev policy)</p>
                             <div>
                                 <ul className='links'>
                                     <li className='link'>
