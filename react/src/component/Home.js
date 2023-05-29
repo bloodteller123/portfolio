@@ -17,7 +17,7 @@ const Home = () =>{
                 <h1 className="fullname">Hi! I'm <b>Zihan Chen</b></h1>
                 </div>
                 <h3>Software Developer</h3>
-                <li className="resume"><a href="/ZihanChen_Resume.pdf" target="_blank">Resume</a></li>
+                <li className="resume"><a href="/ZihanChen_All.pdf" target="_blank">Resume</a></li>
             </div>
         </section>
     )

@@ -47,8 +47,16 @@ const About = () =>{
                             <p className='skillname'>Spring Boot</p>
                         </div>
                         <div className='skill'>
+                            <img className='skillimg' src={require('../assests/redis.png')} alt='postgres'/>
+                            <p className='skillname'>Redis</p>
+                        </div>
+                        <div className='skill'>
                             <img className='skillimg' src={require('../assests/postgresql.png')} alt='postgres'/>
                             <p className='skillname'>PostgreSQL</p>
+                        </div>
+                        <div className='skill'>
+                            <img className='skillimg' src={require('../assests/mongodb.png')} alt='postgres'/>
+                            <p className='skillname'>MongoDB</p>
                         </div>
                         <div className='skill'>
                             <img className='skillimg' src={require('../assests/docker.png')} alt='docker'/>
@@ -61,6 +69,10 @@ const About = () =>{
                         <div className='skill'>
                             <img className='skillimg' src={require('../assests/git.png')} alt='git'/>
                             <p className='skillname'>Git</p>
+                        </div>
+                        <div className='skill'>
+                            <img className='skillimg' src={require('../assests/linux.png')} alt='git'/>
+                            <p className='skillname'>Linux</p>
                         </div>
                     </div>
                 </div>
